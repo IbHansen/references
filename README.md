@@ -1,16 +1,16 @@
-# bibliography
+# references
 
 `references.bib` is the one bibliography of all the ModelFlow books
 (`https://ibhansen.github.io/<book>/`). This is the master: edit it here, nowhere else.
 
-The repo is `IbHansen/bibliography` on GitHub (public); locally it is
+The repo is `IbHansen/references` on GitHub (public); locally it is
 `C:\mfmodeller\modelflow_material\Litteratur\references`.
 
 ## How the books get it
 
 - **On GitHub Pages.** The book repos do not hold a copy. Their workflow
   (`.github/workflows/deploy.yml`, master in `C:\deploy\bookcontrol\shared`) downloads
-  `https://raw.githubusercontent.com/IbHansen/bibliography/main/references.bib` just
+  `https://raw.githubusercontent.com/IbHansen/references/main/references.bib` just
   before `jupyter book build`. The repo must therefore stay public, and the file must
   stay at the root of `main`. If the download fails, the build fails (rather than
   publishing a book without its references).
